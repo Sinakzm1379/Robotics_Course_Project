@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtle">
+	<param name ="/background_r" value="60" type="int"/>
+	<param name ="/background_g" value="60" type="int"/>
+	<param name ="/background_b" value="60" type="int"/>
+	</node>
+	<node pkg="drawing_pkg" type="drawing_turtle_move.py" name="Turtle_move" output="screen" />
+</launch>
+

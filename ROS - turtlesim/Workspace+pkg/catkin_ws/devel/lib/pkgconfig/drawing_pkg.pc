@@ -1,0 +1,8 @@
+prefix=/home/radical/catkin_ws/devel
+
+Name: drawing_pkg
+Description: Description of drawing_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
